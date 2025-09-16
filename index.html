@@ -9,7 +9,7 @@
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
-      background: #fafafa;
+      background: #fffdfd;
       color: #333;
     }
     header {
@@ -19,12 +19,12 @@
       padding: 80px 20px;
     }
     header h1 {
-      font-size: 3em;
+      font-size: 3.5em;
       margin: 0;
     }
     header p {
-      font-size: 1.2em;
-      margin-top: 10px;
+      font-size: 1.3em;
+      margin-top: 15px;
     }
     section {
       max-width: 900px;
@@ -36,10 +36,10 @@
       margin-bottom: 20px;
       color: #ff4d6d;
     }
-    .services, .pricing, .contact {
+    .services, .pricing, .contact, .presets {
       background: white;
       border-radius: 15px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
       padding: 30px;
       margin-bottom: 40px;
     }
@@ -71,55 +71,103 @@
     .cta a:hover {
       background: #e63c5d;
     }
+    .preset-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .preset {
+      background: #fff7f8;
+      border: 2px solid #ff9a76;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .preset:hover {
+      transform: scale(1.05);
+    }
+    .preset h3 {
+      margin-top: 0;
+      color: #ff4d6d;
+    }
+    .preset p {
+      font-size: 0.95em;
+      color: #555;
+    }
   </style>
 </head>
 <body>
 
   <header>
     <h1>🍉 Melon Studio</h1>
-    <p>Classy. Formal. Fun. — Building Discord servers & websites that stand out.</p>
+    <p>Fun, clean and professional – we set up Discord servers & websites that fit your vibe.</p>
   </header>
 
   <section class="services">
-    <h2>🚀 What We Offer</h2>
+    <h2>🚀 What We Do</h2>
     <ul>
-      <li><strong>Discord Server Setup</strong> – Professional layouts, roles, permissions, automation, and custom functions based on your request.</li>
-      <li><strong>Websites</strong> – Clean GitHub-hosted sites, coded for you. *(Domain purchase is up to you; pricing depends on complexity.)*</li>
+      <li><strong>Discord Server Setup</strong> – Roles, channels, permissions, automation, and custom functions made for you.</li>
+      <li><strong>Websites</strong> – Simple or advanced GitHub-hosted sites. *(Domain is up to you.)*</li>
     </ul>
   </section>
 
   <section class="pricing">
-    <h2>💰 Pricing</h2>
+    <h2>💰 Prices</h2>
     <ul>
       <li><strong>Full Discord Server Setup</strong> → 1,200 Robux</li>
-      <li><strong>Websites</strong> → Price varies (easy ones cheaper, complex ones higher)</li>
+      <li><strong>Websites</strong> → Price depends on how simple or complex it is</li>
     </ul>
     <p><em>Payments through Roblox <strong>Pls Donate</strong> (User: Mrmasterwealthy)</em></p>
+    <p><em>Prices are negotiable</em></p>
   </section>
 
   <section class="why">
-    <h2>🌟 Why Choose Melon Studio?</h2>
+    <h2>🌟 Why Us?</h2>
     <ul>
-      <li>Clean, structured servers with growth in mind</li>
-      <li>Custom functions included in every server setup</li>
-      <li>Affordable websites with professional coding</li>
-      <li>Reliable delivery + revisions until you’re happy</li>
+      <li>Servers made simple, clean and ready to grow</li>
+      <li>Custom functions always included</li>
+      <li>Websites that look good and work smooth</li>
+      <li>We work until you’re happy</li>
     </ul>
+  </section>
+
+  <section class="presets">
+    <h2>📂 Preset Options</h2>
+    <p>Want something fast? Choose from preset styles with ready-made vibes and functions:</p>
+    <div class="preset-grid">
+      <div class="preset">
+        <h3>🎓 School Server</h3>
+        <p>Organized channels, study groups, announcements, homework help bots.</p>
+      </div>
+      <div class="preset">
+        <h3>🎮 Gaming Channel</h3>
+        <p>Voice lobbies, ranking systems, team finders, custom game roles.</p>
+      </div>
+      <div class="preset">
+        <h3>⚽ Sports Club</h3>
+        <p>Match schedules, player stats, event boards, team updates.</p>
+      </div>
+      <div class="preset">
+        <h3>🎵 Music Server</h3>
+        <p>Music bots, lyric channels, playlists, event nights.</p>
+      </div>
+    </div>
   </section>
 
   <section class="contact">
     <h2>📩 Contact</h2>
     <p><strong>Discord:</strong> gagaboi777</p>
     <p><strong>Roblox:</strong> Mrmasterwealthy</p>
-    <p><strong>GitHub:</strong> <a href="https://github.com/" target="_blank">Your GitHub Profile</a></p>
     <div class="cta">
-      <a href="https://www.roblox.com/games/" target="_blank">Hire Me via Pls Donate</a>
+      <a href="https://discord.com/users/1400417838354796595" target="_blank">Contact Me</a>
     </div>
   </section>
 
   <footer>
-    <p>© 2025 Melon Studio · Crafted with passion 🍉</p>
+    <p>© 2025 Melon Studio · Made with passion 🍉</p>
   </footer>
 
 </body>
 </html>
+
